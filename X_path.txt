@@ -1,0 +1,10 @@
+1-yangtze-chine
+--->/*/river[length=max(/*/river/length)]/name
+-Doneau
+--->/*/river[count(located)=max(/*/river/count(located))]/name
+-SRB A D H HR SK BG RO MD UA
+--->/*/river[count(located)=max(/*/river/count(located))]/@country
+2-chine-CN
+--->/*/river[length=max(/*/river/length)]/@country
+3-/*/country[name='Germany']/border
+4-((/*/country[name='Turkey']/encompassed[@continent='europe']/@percentage)*(/*/country[name='Turkey']/@area)) div 100 
